@@ -1,0 +1,21 @@
+{
+  "name": "my-project",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.11"
+  },
+  "scripts": {
+  "dev": "bun run index.ts",
+  "start": "bun run index.ts"
+},
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2"
+  }
+}
